@@ -1,0 +1,55 @@
+#grid {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 1px solid black;
+  width:640px;
+  height:640px;
+}
+#con{
+  display:flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding-top: 4vh;
+}
+.row {
+  display: flex;
+}
+.cell {
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+  box-sizing: border-box;
+  background-color: aliceblue;
+} 
+#title{
+  text-align: center;
+  padding-top: 3vh;
+  font-size: 25pt;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: orange;
+  
+}
+#dbtn{
+  display: flex;
+  justify-content: center;
+  padding-top:3vh;
+}
+body{
+  background-image: url('360_F_263872129_23ltKG9UCKBFvvAEgrTuqhgeMFg6lvce.jpg');
+  background-size: cover; 
+  background-position: center;
+  height: 100vh;
+}
+#content{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 1; 
+  text-shadow: 300pt;
+}
